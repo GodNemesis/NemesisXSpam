@@ -833,7 +833,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("JAA RHA GAAND MARNE 🤤🔥")
+                await event.edit("𝐆𝐀𝐀𝐍𝐃 𝐌𝐈𝐋 𝐆𝐘𝐀𝐀 𝐁𝐇𝐀𝐈𝐈 💋💦")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -917,7 +917,7 @@ async def _(e):
         if len(e.text) == 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "FIR SE AAUNGA BSDK 👿"
+            text = "𝐉𝐀𝐀 𝐌𝐀𝐃𝐀𝐑𝐗𝐇𝐎𝐃 𝐗𝐇𝐎𝐑 𝐃𝐈𝐘𝐀💋"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -1274,7 +1274,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "ᗩᗩᒍ TᗴᖇI ᗰᗩᗩ ᙭ᕼᑌᗪᗴᘜI ⚡"
+            text = "𝐀𝐀𝐉 𝐓𝐄𝐑𝐈 𝐌𝐀𝐀 𝐗𝐇𝐔𝐃𝐄𝐆𝐈 𝐁𝐄𝐓𝐄⚡"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1323,7 +1323,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "Kᗩᒪᗩᑭ ᗰᗩT Oᖴᖴ ᕼOᘜYᗩ 😂💥"
+            text = "𝐗𝐇𝐔𝐃 𝐆𝐀𝐘𝐈 𝐁𝐀𝐂𝐂𝐇𝐈 💦"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1334,7 +1334,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "Kᗩᒪᗩᑭ ᗰᗩT Oᖴᖴ ᕼOᘜYᗩ 😂💥"
+            text = "𝐗𝐇𝐔𝐃 𝐆𝐀𝐘𝐈 𝐁𝐀𝐂𝐂𝐇𝐈 💦"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1373,7 +1373,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"𒅒𝐒𝐏𝐄𝐄𝐃!\n`{ms}` 𝗺𝘀\n  ✡⚔𝐂𝐔𝐑𝐒𝐄 𝐒𝐏𝐀𝐌𝐁𝐎𝐓⚔✡")
+        await event.edit(f"𒅒𝐒𝐏𝐄𝐄𝐃!\n`{ms}` 𝗺𝘀\n  ✡⚔𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓⚔✡")
 
      
         
@@ -1405,7 +1405,7 @@ async def ping(e):
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "ᖇᗴՏTᗩᖇTᗴᗪ...\n\nPlease wait till it reboots..."
+        text = "𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗲𝗱...\n\nPlease wait till it reboots..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
@@ -1483,7 +1483,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = " ⚔️ ᒪᑌᑕIᖴᗴᖇ Տᑭᗩᗰ ᗷOT ⚔️\n\nᑌTIᒪ ᑕOᗰᗰᗩᑎᗪՏ:\n.ping\n.restart\n\nᑌՏᗴᖇᗷOT ᑕOᗰᗰᗩᑎᗪՏ:\n.bio\n.join\n.pjoin\n.pleave\n\nՏᑭᗩᗰ ᑕOᗰᗰᗩᑎᗪՏ:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = " ✡⚔𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓✡⚔\n\n✘ 𝐔𝐓𝐈𝐋𝐒 ✘:\n.ping\n.restart\n\n✘ 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓 ✘:\n.bio\n.join\n.pjoin\n.pleave\n\n✘ 𝐒𝐏𝐀𝐌 ✘:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\n[•𝐋𝐔𝐂𝐈𝐅𝐄𝐑•](https://t.me/GodLuciferOp)"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
