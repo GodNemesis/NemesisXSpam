@@ -173,7 +173,7 @@
         "value": "182727",
         "required": true
       }
-  },
+},
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
