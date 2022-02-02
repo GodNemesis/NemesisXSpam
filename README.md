@@ -4,7 +4,6 @@
 [![♡︎Dᴇᴘʟᴏʏ♡︎](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GodLuciferXD/LuciferSpamBot.git)
 
 -------
-##.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7c51539e67b483bb8d7749acca51d3a)](https://app.codacy.com/gh/GodLuciferXD/LuciferSpamBot?utm_source=github.com&utm_medium=referral&utm_content=GodLuciferXD/LuciferSpamBot&utm_campaign=Badge_Grade_Settings)   
 [![Python](https://img.shields.io/badge/Python-v3.9-blue)](https://www.python.org/)
