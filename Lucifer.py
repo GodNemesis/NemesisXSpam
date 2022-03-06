@@ -1483,7 +1483,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = " ⚔ 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ⚔\n\n✘ 𝐔𝐓𝐈𝐋𝐒 ✘:\n.ping\n.restart\n\n✘ 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓 ✘:\n.bio\n.join\n.pjoin\n.pleave\n\n✘ 𝐒𝐏𝐀𝐌 ✘:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\"
+       text = " ⚔ 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ⚔\n\n✘ 𝐔𝐓𝐈𝐋𝐒 ✘:\n.ping\n.restart\n\n✘ 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓 ✘:\n.bio\n.join\n.pjoin\n.pleave\n\n✘ 𝐒𝐏𝐀𝐌 ✘:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n [ MADARCHOD ]"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
